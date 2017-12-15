@@ -1,0 +1,27 @@
+{
+  "name": "mochawesome-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mochawesome": "^3.0.0",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha test.js --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgruber/mochawesome-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamgruber/mochawesome-test/issues"
+  },
+  "homepage": "https://github.com/adamgruber/mochawesome-test#readme"
+}
